@@ -1,0 +1,130 @@
+# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# compiled output
+dist
+tmp
+out-tsc
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Nx
+.nx/cache
+.nx/workspace-data
+
+# Angular
+.angular
+
+# Environment Variables - NEVER COMMIT THESE!
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Convex
+.convex
+
+# Logs
+logs
+*.log
+
+# Testing
+/coverage
+/.nyc_output
+
+# Temporary files
+*.tmp
+*.temp
+.cache
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.editorconfig
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs
+/dist
+/build
+/out
+
+# Package manager
+.pnpm-store/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+
+# Gemini
+.gemini
+
+# MCP
+.mcp.json
+
+# Claude
+CLAUDE.md
+AGENTS.md
+
+# Playwright
+.playwright-mcp
+
+# Vite
+vite.config.*.timestamp*
+vitest.config.*.timestamp*
+
+# Plans
+
+*.md
