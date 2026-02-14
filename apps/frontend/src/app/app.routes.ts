@@ -8,8 +8,11 @@ export const appRoutes: Route[] = [
   },
   {
     path: 'products',
-    pathMatch: 'full',
-    redirectTo: 'products',
+    loadComponent: () => import('./app').then((m) => m.App),
+  },
+  {
+    path: 'products/:id',
+    loadComponent: () => import('./app').then((m) => m.App),
   },
   {
     path: '**',
