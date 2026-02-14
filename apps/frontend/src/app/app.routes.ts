@@ -8,15 +8,8 @@ export const appRoutes: Route[] = [
   },
   {
     path: 'products',
-    loadChildren: () =>
-      import('@org/shop/feature-products').then(m => m.featureProductsRoutes),
-  },
-  {
-    path: 'products',
-    loadChildren: () =>
-      import('@org/shop/feature-product-detail').then(
-        m => m.featureProductDetailRoutes
-      ),
+    pathMatch: 'full',
+    redirectTo: 'products',
   },
   {
     path: '**',
